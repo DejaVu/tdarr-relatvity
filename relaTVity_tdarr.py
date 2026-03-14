@@ -147,7 +147,7 @@ def write_tdarr_config(node_name, ffmpeg_path, status_cb=None):
         return False
 
 # -------------------------
-# Updater (no tray launch)
+# Updater 
 # -------------------------
 def run_tdarr_updater_then_tray(status_cb=None, updater_timeout=180):
     """

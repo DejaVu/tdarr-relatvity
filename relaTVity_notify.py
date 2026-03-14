@@ -8,9 +8,8 @@ import os
 import json
 import time
 import logging
-from datetime import datetime, timezone
-
 import requests
+from datetime import datetime, timezone
 
 logger = logging.getLogger("relaTVity_notify")
 

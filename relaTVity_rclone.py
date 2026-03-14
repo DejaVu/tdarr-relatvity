@@ -38,7 +38,6 @@ logger = logging.getLogger(__name__)
 RCLONE_DOWNLOAD_URL = "https://downloads.rclone.org/rclone-current-windows-amd64.zip"
 DEFAULT_RCLONE_EXE_NAME = "rclone.exe"
 
-
 def find_rclone_executable(rclone_dir: Path) -> Optional[Path]:
     """
     Return Path to rclone.exe inside rclone_dir if present, otherwise None.
@@ -53,7 +52,6 @@ def find_rclone_executable(rclone_dir: Path) -> Optional[Path]:
     except Exception:
         logger.exception("Error while searching for rclone executable in %s", rclone_dir)
     return None
-
 
 def ensure_rclone_installed(rclone_dir: Path, temp_dir: Path, status_cb=None) -> Optional[Path]:
     """
@@ -157,7 +155,6 @@ def ensure_rclone_installed(rclone_dir: Path, temp_dir: Path, status_cb=None) ->
         if status_cb:
             status_cb("Failed to deploy rclone", "warning")
         return None
-
 
 def build_minimal_rclone_config(remote_name: str = "localmedia", remote_type: str = "local", remote_path: str = "C:/RelaTVity/Media") -> str:
     """

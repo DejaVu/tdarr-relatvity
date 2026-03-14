@@ -30,7 +30,6 @@ from relaTVity_core import (
     persist_node_name,
 )
 
-# If your project provides run_subprocess/_run_cmd_list, import them; otherwise define minimal wrappers
 try:
     from relaTVity_core import run_subprocess, _run_cmd_list  # if provided
 except Exception:

@@ -133,7 +133,7 @@ def detect_encoders(ffmpeg_path):
 
 def enumerate_gpus():
     """
-    Return a list of GPU names using PowerShell. Returns [] on failure.
+    Return a list of GPU names using PowerShell.
     """
     try:
         res = subprocess.run(

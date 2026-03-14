@@ -2,7 +2,7 @@
 """
 RelaTVity uninstall and cleanup helpers.
 Exports:
-  uninstall_all
+  uninstall_all -needs work
 """
 
 import shutil

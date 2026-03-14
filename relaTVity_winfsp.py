@@ -31,7 +31,6 @@ logger = logging.getLogger(__name__)
 
 DEFAULT_WINFSP_URL = "https://github.com/winfsp/winfsp/releases/download/v2.1/winfsp-2.1.25156.msi"
 
-
 def is_winfsp_installed() -> bool:
     """
     Quick check whether WinFsp appears installed.
