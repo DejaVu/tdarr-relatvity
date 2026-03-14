@@ -16,7 +16,7 @@ logger = logging.getLogger("relaTVity_notify")
 # Default webhook (use environment variable in production)
 DEFAULT_WEBHOOK = os.getenv(
     "DISCORD_WEBHOOK_URL",
-    "https://discord.com/api/webhooks/1480631821057130537/Z5euFQKpocHnaYbcsebORx6Gkzq9OHGhDmaYhWAb-JB-cX9Ds6qjjROhvPnQarM3YpUj"
+    "PLACE IT HERE"
 )
 
 # Emoji codepoints (kept as unicode strings)
